@@ -1,0 +1,103 @@
+@media (min-width: 1px) and (max-width: 500px) { 
+    .custom-link{
+        margin-left: 0rem;
+    }
+    nav img{
+        margin: 1rem;
+        margin-left: 0rem;
+    }
+    .custom-link a{
+        color: black;
+        padding-left: 2rem;
+    }
+    .custom-link a:hover{
+        color: black;
+        opacity: 0.8;
+        text-decoration: none;
+    }
+
+.position{
+    margin-left: 2rem;
+    padding: 0;
+    position: relative;
+    width: 110%;
+    height: auto;
+}
+
+.title{
+    display: inline-block;
+    background-color: #F0F0F0;
+    margin-top: 3rem;
+   margin-right: 0rem;
+  
+    
+}
+
+.custom-images-title{
+    flex-direction: column;
+    
+}
+.custom-images-title-two{
+    flex-direction: column-reverse;
+}
+.custom-images{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    }
+.disc h4{
+    padding-top: 1rem;
+}
+.disc-two h4{
+    padding-top: 1rem;
+}
+    
+
+.disc{
+    
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.disc-two{
+   
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.form{
+    flex-direction: column;
+    padding: 0;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+iframe{
+    width: 90%;
+    height: 400px;
+    padding-left: 2rem;
+
+}
+input{
+    width: 80%;
+
+}
+textarea{
+    width: 80%;
+}
+.button{
+    width: 80%;
+    height: 40px;
+    padding: 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+.h-section img{
+    width: 100%;
+    height: a;
+}
+ }

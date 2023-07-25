@@ -1,0 +1,260 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.custom-link{
+    margin-left: 85rem;
+}
+nav img{
+    margin: 1rem;
+    margin-left: 5rem;
+}
+.custom-link a{
+    color: black;
+    padding-left: 2rem;
+}
+.custom-link a:hover{
+    color: black;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.position{
+    position: absolute;
+    z-index:-1;
+    width: 600px;
+    height: 500px;
+}
+
+.section{
+  text-align: center;
+  margin-top: 5rem;
+  margin-right: 6rem;
+ 
+
+}
+.title{
+    display: inline-block;
+    background-color: #F0F0F0;
+    margin-top: 3.5rem;
+   margin-right: 15rem;
+   padding: 4rem;
+   
+    
+}
+.title h1{
+    color: #2C54A4;
+    font-weight: 700;
+}
+.title p{
+    line-height:2rem;
+}
+.custom-title{
+   text-align: center;
+    color: #2C54A4;
+    margin-bottom: 5rem;
+   margin-top: 10rem;
+
+}
+.custom-title h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.custom-images-title{
+    display: flex; 
+    justify-content: center;
+   }
+
+.custom-title-two{
+    text-align: center;
+     color: #2C54A4;
+     margin-bottom: 5rem;
+    margin-top: 10rem;
+ 
+ }
+ .custom-title-two h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.custom-images-title-two{
+    display: flex; 
+ justify-content: center;
+ 
+}
+
+
+
+.custom-images{
+    width: 950px;
+    height: 510px;
+}
+.disc{
+    width:950px;
+    height: 510px;
+    text-align: center;
+  padding-top:12rem ;
+    background-color: #F0F0F0;
+    margin-left:2rem;
+    margin-bottom: 2rem;
+
+}
+.disc h4{
+    padding-bottom: 2rem;
+    color: #2C54A4;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.disc-two h4{
+    margin-bottom: 2rem;
+    color: #2C54A4;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.disc-two{
+    text-align: center;
+    width: 950px;
+    height: 510px;
+    background-color: #F0F0F0;
+    padding-top: 12rem;
+   margin-right: 2rem;
+   margin-bottom: 2rem;
+}
+
+iframe{
+filter: grayscale(100);
+margin-right: 2rem;
+height: 700px;
+width: 530px;
+margin-bottom: 5rem;
+}
+iframe:hover{
+    filter: grayscale(0);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    background-color: #3969CA;
+    padding-top: 8rem;
+    color: #fff;
+    }
+.form h1{
+    font-weight:700 ;
+}
+input{
+    width: 120%;
+    background-color: #3969CA;
+    border: #3969CA 1px solid;
+    border-bottom: #fff 1px solid;
+    padding: 0.5rem 2rem;
+    color:#fff;
+    
+}
+textarea{
+    width: 120%;
+    background-color: #3969CA;
+    border: #3969CA 1px solid;
+    border-bottom: #fff 1px solid;
+    margin-bottom: 1rem;
+    
+}
+textarea:hover{
+    border: #fff 1px solid;
+  
+}
+input:hover{
+    border: #fff 1px solid;
+    
+}
+::placeholder{
+    color: #fff;
+}
+::placeholder:hover{
+    color: #2C54A4;
+}
+.button{
+    
+    color: #3969CA;
+    background-color: #fff;
+    font-size: 1.5rem;
+ width: 120%;
+ padding: 0.8rem 1rem;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 5rem;
+}
+footer h4{
+    font-weight: 700;
+padding-bottom: 1.5rem;
+}
+.custom-form{
+    padding-left: 1rem;
+}
+.h-section{
+    text-align: center;
+}
+.h-title{
+    margin-top: 5rem;
+    color: #2C54A4;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.h-section img{
+    margin-top: 5rem;
+}
+.i-title{
+    text-align: center;
+    margin-top: 5rem;
+    color: #2C54A4;
+    padding-bottom: 2rem;
+
+}
